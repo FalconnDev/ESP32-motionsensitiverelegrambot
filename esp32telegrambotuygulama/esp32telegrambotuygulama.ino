@@ -9,14 +9,14 @@
 #include <ArduinoJson.h> //https://github.com/bblanchon/ArduinoJson
 
 // Kablosuz Ağ Bilgilerinizi Girin
-const char* ssid = "FlutterDoctor"; //1- WiFi adını yaz 
-const char* password = "omer2861"; //2- Wifi şifreni yaz
+const char* ssid = "null"; //1- WiFi adını yaz 
+const char* password = "null"; //2- Wifi şifreni yaz
 
 // Telegram BOT için gereken token'ı girin
-#define BOTtoken "6975410753:AAErVrUUEI3oJ2dgVOuJ92YOfZ4ySlaFnMU"  // BotFather'dan aldığınız TOKEN
+#define BOTtoken "null"  // BotFather'dan aldığınız TOKEN
 // IDBOT üzerinden /getid mesajı ile aldığımız ID bilgimizi gireceğiz
 // Botun bizimle haberleşebilmesi için /start komutunu çalıştırmamız gerekli
-#define CHAT_ID "5372084971" //3- IDBOTtan alınan id yazılacak!!!
+#define CHAT_ID "null" //3- IDBOTtan alınan id yazılacak!!!
 //X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 
 //telegram bota bağlantı için gerekli tanımlamaları yapmalıyız
